@@ -7,8 +7,8 @@ b = int(input('Введите второе число '))
 c = int(input('Введите третье число '))
 
 if b < a < c or c < a < b:
-    print (f'Среднее: {a}')
+    print(f'Среднее: {a}')
 elif a < b < c or c < b < a:
-    print (f'Среднее: {b}')
+    print(f'Среднее: {b}')
 else:
-    print (f'Среднее: {c}')
+    print(f'Среднее: {c}')
