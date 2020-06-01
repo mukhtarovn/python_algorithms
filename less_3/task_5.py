@@ -1,4 +1,6 @@
 # Определить, какое число в массиве встречается чаще всего.
+import cProfile
+import timeit
 
 import random
 SIZE = 100
@@ -22,3 +24,4 @@ if max_frq > 1:
     print(max_frq, 'раз(а) встречается число', num)
 else:
     print('Все элементы уникальны')
+print(timeit.timeit(''))
